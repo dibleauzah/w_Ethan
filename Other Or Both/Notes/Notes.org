@@ -1,0 +1,20 @@
+/*1--The Standard "for" loo*/
+for (initializer; condition; final-expression) {
+    //code to run
+}
+
+/*2--while*/
+
+initializer
+while (condition) {
+    //code to run
+    final-expression
+}
+
+/*3--do...while"*/
+
+initializer
+do {
+    //code to run
+    final-expression 
+}   while (condition)

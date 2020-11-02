@@ -1,0 +1,49 @@
+How to make a peanut butter jelly sandwich:
+
+Go get two slice bread from the counter
+Place the slices on a plate
+Get your peanut butter and jam from the fridge
+Get a knife from the drawer
+
+Place all of your items in one place
+LOOP twice --
+    If a slice of bread does not have a condiment on it
+        If there is no peanut butter on the two slices
+            Put peanut butter on the slice
+        Else
+            Put jam on the slice
+    Else
+        Fold the two slices of bread together, condiments toward each other
+--
+
+Loops Review
+
+FOR:
+for (initializer; condition; final statement){
+    // Do stuff
+}
+
+While:
+initializer;
+
+while (condition){
+    //do stuff
+    final statement;
+    //e.g. of final stat: "i++"
+}
+
+Do-While:
+
+initializer;
+//e.g.: let i = 0;
+do {
+    //do stuff; e.g. console.log("hello");
+    final statement;
+    //e.g.: i++;
+} while (condition e.g.: i < 1); 
+
+Note: 
+--> Use "for" loop when you want to do something a specific amt of times--you already know the precise no. of times.
+--> Use "while" when you don't know how many iterations you need.
+--> Use "do-while" when you know you're going to run your code **at least** once. Thereafter, the iterations are dependent on a specific condition.
+
